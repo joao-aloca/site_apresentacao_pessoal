@@ -1,2 +1,3 @@
-# site_apresentacao_pessoal
-Site criado com o intuito de divulgar meus conhecimento técnicos e vivências em TI
+# Site de apresentação pessoal
+Em progresso...
+!(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnl0M3ZicnVkMWc1azVrd21sMXd6dTRmanhjem11enAyMGV3OWFrbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/toXKzaJP3WIgM/giphy.gif)
