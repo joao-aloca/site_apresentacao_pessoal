@@ -100,3 +100,29 @@ main {
     font-family: var(--fontfamily-paragrafos);
     padding: 10px 0;
 }
+
+.footer {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-titulo {
+    font-weight: bold;
+}
+
+.footer-item-lista {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-item-lista-imagem {
+    height: 24px;
+}
