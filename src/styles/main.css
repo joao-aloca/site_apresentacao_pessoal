@@ -62,11 +62,11 @@ p {
 }
 
 .navbar-divisoria {
-    width: 550px;
+    width: 450px;
     border-width: .5px;
     border-color: #343434;
     margin-left: auto;
-    margin-right: 25px;
+    margin-right: 40px;
 }
 
 main {
@@ -90,11 +90,11 @@ main {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--fontcolor-titulos-darker);
-    /* 
+
     box-shadow:
-        0 0 15px var(--fontcolor-titulos-darker),
-        0 0 30px var(--fontcolor-titulos-darker),
-        0 0 45px var(--fontcolor-titulos-darker); */
+        0 0 20px var(--fontcolor-titulos-darker),
+        0 0 20px var(--fontcolor-titulos-darker),
+        0 0 35px var(--fontcolor-titulos-darker);
 }
 
 .conteudo-principal-textos {
