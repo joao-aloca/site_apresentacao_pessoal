@@ -4,13 +4,14 @@
 
 :root {
     --bgcolor-primary: #000500;
+    --bgcolor-secondary: #0d0d0d;
 
     --fontcolor-titulos: #06c000;
     --fontcolor-titulos-darker: #047000;
     --fontsize-titulos: 4rem;
     --fontsize-subtitulos: 2rem;
     --fontsize-paragrafos: 1rem;
-    --fontfamily-paragrafos: 'Fira Code',
+    --fontfamily-default: 'Fira Code',
         monospace;
     --shadow:
         0 0 7px var(--fontcolor-titulos-darker),
@@ -31,8 +32,15 @@ body {
     color: beige;
 }
 
+a,
+p {
+    text-decoration: none;
+    font-family: var(--fontfamily-default);
+    color: beige;
+}
+
 .navbar {
-    background-color: rgb(37, 37, 37);
+    background-color: var(--bgcolor-secondary);
 }
 
 
@@ -47,6 +55,7 @@ body {
     color: beige;
     text-decoration: none;
     font-size: 1.2rem;
+    font-family: var(--fontfamily-default)
 }
 
 main {
@@ -79,6 +88,7 @@ main {
 .conteudo-principal-textos-subtitulo {
     color: var(--fontcolor-titulos);
     text-shadow: var(--shadow);
+    font-family: var(--fontfamily-default);
 }
 
 .conteudo-principal-textos-titulo {
@@ -97,15 +107,20 @@ main {
 
 .conteudo-principal-textos-paragrafo {
     /* text-align: justify; */
-    font-family: var(--fontfamily-paragrafos);
+    font-family: var(--fontfamily-default);
     padding: 10px 0;
+}
+
+footer {
+    background-color: var(--bgcolor-secondary);
 }
 
 .footer {
     display: flex;
-    gap: 100px;
+    gap: 150px;
     justify-content: center;
     align-items: start;
+    padding: 50px 0 50px 0;
 }
 
 .footer-item {
@@ -115,14 +130,40 @@ main {
 
 .footer-item-titulo {
     font-weight: bold;
+    padding-bottom: 10px;
+    font-family: var(--fontfamily-default)
 }
 
 .footer-item-lista {
     display: flex;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px
+}
+
+.footer-item-lista-link {
+    display: flex;
     gap: 5px;
 }
 
+.footer-item-lista-link:hover,
+footer li:hover {
+    text-decoration: underline;
+}
+
 .footer-item-lista-imagem {
-    height: 24px;
+    height: 20px;
+}
+
+.footer-divisoria {
+    width: 600px;
+    border-width: .5px;
+    border-color: #343434;
+}
+
+.footer-direitos {
+    font-family: var(--fontfamily-default);
+    font-size: .7rem;
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
