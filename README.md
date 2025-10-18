@@ -16,7 +16,7 @@ Este é um projeto de página pessoal desenvolvida com HTML e CSS, com foco em m
 
 - HTML5
 - CSS3
-- Google Fonts (Fira Code, Montserrat, Rubik)
+- Google Fonts (Fira Code)
 
 ## Contato
 
