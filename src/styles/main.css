@@ -1,0 +1,102 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --bgcolor-primary: #000500;
+
+    --fontcolor-titulos: #06c000;
+    --fontcolor-titulos-darker: #047000;
+    --fontsize-titulos: 4rem;
+    --fontsize-subtitulos: 2rem;
+    --fontsize-paragrafos: 1rem;
+    --fontfamily-paragrafos: 'Fira Code',
+        monospace;
+    --shadow:
+        0 0 7px var(--fontcolor-titulos-darker),
+
+        0 0 10px var(--fontcolor-titulos-darker),
+        0 0 21px var(--fontcolor-titulos),
+        0 0 42px var(--fontcolor-titulos),
+
+        0 0 82px var(--fontcolor-titulos),
+        0 0 92px var(--fontcolor-titulos),
+        0 0 102px var(--fontcolor-titulos),
+        0 0 151px var(--fontcolor-titulos);
+    ;
+}
+
+body {
+    background-color: var(--bgcolor-primary);
+    color: beige;
+}
+
+.navbar {
+    background-color: rgb(37, 37, 37);
+}
+
+
+.navbar-links {
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+    padding: 20px 50px;
+}
+
+.navbar-link {
+    color: beige;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.conteudo-principal-imagem {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.conteudo-principal-textos {
+    width: 600px;
+}
+
+.conteudo-principal-textos-titulo,
+.conteudo-principal-textos-subtitulo {
+    color: var(--fontcolor-titulos);
+    text-shadow: var(--shadow);
+}
+
+.conteudo-principal-textos-titulo {
+    font-size: var(--fontsize-titulos);
+}
+
+.conteudo-principal-textos-subtitulo {
+    font-size: var(--fontsize-subtitulos);
+}
+
+.conteudo-principal-textos-paragrafos {
+    font-size: var(--fontsize-paragrafos);
+    padding-top: 30px;
+    width: 450x;
+}
+
+.conteudo-principal-textos-paragrafo {
+    /* text-align: justify; */
+    font-family: var(--fontfamily-paragrafos);
+    padding: 10px 0;
+}
