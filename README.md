@@ -1,6 +1,6 @@
 # João Alóca | Desenvolvedor .NET Full Stack
 
-Este é um projeto de página pessoal desenvolvida com HTML e CSS, com foco na apresentação profissional de João Alóca como desenvolvedor .NET Full Stack. A página possui layout responsivo, efeitos visuais modernos (como imagem circular com bordas embaçadas e textos com efeito neon), além de informações sobre experiência e formas de contato.
+Este é um projeto de página pessoal desenvolvida com HTML e CSS, com foco em minha apresentação profissional como desenvolvedor .NET Full Stack. A página possui layout responsivo, efeitos visuais modernos (como imagem circular com bordas embaçadas e textos com efeito neon), além de informações sobre experiência e formas de contato.
 
 ## Funcionalidades
 
